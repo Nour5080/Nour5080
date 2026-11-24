@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="A coffee cup cycling through espresso, latte, cappuccino and mocha">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#241815"/><stop offset="1" stop-color="#1A110E"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#C8A27A" stop-opacity=".2"/><stop offset="1" stop-color="#C8A27A" stop-opacity="0"/></radialGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F6ECDF"/><stop offset="1" stop-color="#D8C3AA"/></linearGradient>
+    <style>
+      .steam { fill:none; stroke:#E8D5C0; stroke-width:4; stroke-linecap:round; opacity:0; animation: rise 3.2s ease-in-out infinite; }
+      .s2{animation-delay:1.05s}.s3{animation-delay:2.1s}
+      @keyframes rise { 0%{opacity:0;transform:translateY(8px)} 35%{opacity:.55} 100%{opacity:0;transform:translateY(-30px)} }
+      .liquid { animation: brew 12s infinite; }
+      @keyframes brew {
+        0%,22%   { fill: #3A1F14; }
+        25%,47%  { fill: #B9875A; }
+        50%,72%  { fill: #E3C6A2; }
+        75%,97%  { fill: #5C3020; }
+        100%     { fill: #3A1F14; }
+      }
+      .art { opacity: 0; animation: show 12s infinite; }
+      .name { font: 700 15px 'Segoe UI','Helvetica Neue',Arial,sans-serif; letter-spacing: 5px; fill: #F3E7D8; opacity: 0; animation: show 12s infinite; }
+      .n2{animation-delay:3s}.n3{animation-delay:6s}.n4{animation-delay:9s}
+      @keyframes show { 0%{opacity:0} 3%{opacity:1} 22%{opacity:1} 25%{opacity:0} 100%{opacity:0} }
+      .label { font: 600 13px 'Cascadia Code',Consolas,monospace; letter-spacing: 3px; fill: #C8A27A; }
+    </style>
+  </defs>
+  <rect width="400" height="300" rx="22" fill="url(#bg)"/>
+  <rect x="1" y="1" width="398" height="298" rx="21" fill="none" stroke="#C8A27A" stroke-opacity=".25"/>
+  <circle cx="200" cy="140" r="120" fill="url(#glow)"/>
+  <!-- names -->
+  <g text-anchor="middle">
+    <text x="200" y="276" class="name">ESPRESSO</text>
+    <text x="200" y="276" class="name n2">LATTE</text>
+    <text x="200" y="276" class="name n3">CAPPUCCINO</text>
+    <text x="200" y="276" class="name n4">MOCHA</text>
+  </g>
+  <g transform="translate(118 52)">
+    <path class="steam"    d="M58 44 q-10 -14 0 -26 q10 -12 0 -24"/>
+    <path class="steam s2" d="M82 44 q-10 -14 0 -26 q10 -12 0 -24"/>
+    <path class="steam s3" d="M106 44 q-10 -14 0 -26 q10 -12 0 -24"/>
+    <ellipse cx="82" cy="164" rx="96" ry="15" fill="#6B4A36"/>
+    <ellipse cx="82" cy="159" rx="96" ry="13" fill="#E8D5C0"/>
+    <path d="M144 76 q40 0 40 32 q0 30 -46 32" fill="none" stroke="#E8D5C0" stroke-width="12"/>
+    <path d="M12 58 L152 58 L144 128 Q140 156 112 156 L52 156 Q24 156 20 128 Z" fill="url(#cup)"/>
+    <ellipse cx="82" cy="58" rx="70" ry="13" fill="#4A2E22"/>
+    <ellipse class="liquid" cx="82" cy="58" rx="61" ry="9"/>
+    <!-- latte heart -->
+    <path class="art n2" style="animation-name:show" d="M82 66 c-12 -9 -22 -1 -15 -8 c5 -5 11 -2 15 2 c4 -4 10 -7 15 -2 c7 7 -3 -1 -15 8z" fill="#F3E7D8"/>
+    <!-- cappuccino foam dots -->
+    <g class="art n3" fill="#FFF6EA"><circle cx="66" cy="57" r="4"/><circle cx="82" cy="55" r="5"/><circle cx="98" cy="58" r="4"/><circle cx="76" cy="61" r="3"/><circle cx="90" cy="61" r="3"/></g>
+    <!-- mocha chocolate drizzle -->
+    <path class="art n4" d="M46 57 q9 -6 18 0 t18 0 t18 0 t18 0" fill="none" stroke="#2A140C" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <text x="26" y="34" class="label">02 · COFFEE</text>
+</svg>

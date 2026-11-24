@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 760" width="560" height="760" role="img" aria-label="Tech stack written as a cafe receipt: C# and .NET, ASP.NET Core Web API, EF Core and LINQ, SQL Server, JWT and Identity, Clean Architecture, Hangfire, Git, Swagger and Visual Studio">
+  <defs>
+    <style>
+      .t { font: 15px 'Cascadia Code', Consolas, 'Courier New', monospace; fill: #3A251E; }
+      .b { font-weight: 700; }
+      .h { font: 800 26px 'Cascadia Code', Consolas, 'Courier New', monospace; fill: #2A1A15; letter-spacing: 2px; }
+      .s { font: 12px 'Cascadia Code', Consolas, 'Courier New', monospace; fill: #7A5A44; letter-spacing: 1px; }
+      .dots { stroke: #B9A38B; stroke-width: 1.5; stroke-dasharray: 2 5; }
+      .paper { animation: print 2.2s cubic-bezier(.2,.8,.2,1) both; }
+      @keyframes print { from { transform: translateY(-40px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+      .steam { fill: none; stroke: #C8A27A; stroke-width: 2.5; stroke-linecap: round; opacity: 0; animation: rise 3s ease-in-out infinite; }
+      .s2 { animation-delay: 1.5s; }
+      @keyframes rise { 0% { opacity: 0; transform: translateY(4px); } 40% { opacity: .7; } 100% { opacity: 0; transform: translateY(-12px); } }
+    </style>
+  </defs>
+  <g class="paper">
+    <path d="M30 20 H530 V720 l-12.5 14 l-12.5 -14 l-12.5 14 l-12.5 -14 l-12.5 14 l-12.5 -14 l-12.5 14 l-12.5 -14 l-12.5 14 l-12.5 -14 l-12.5 14 l-12.5 -14 l-12.5 14 l-12.5 -14 l-12.5 14 l-12.5 -14 l-12.5 14 l-12.5 -14 l-12.5 14 l-12.5 -14 l-12.5 14 l-12.5 -14 l-12.5 14 l-12.5 -14 l-12.5 14 l-12.5 -14 l-12.5 14 l-12.5 -14 l-12.5 14 l-12.5 -14 l-12.5 14 l-12.5 -14 l-12.5 14 l-12.5 -14 l-12.5 14 l-12.5 -14 l-12.5 14 l-12.5 -14 l-12.5 14 l-12.5 -14 Z" fill="#F6ECDF"/>
+    <!-- cup logo -->
+    <g transform="translate(262 46)">
+      <path class="steam" d="M10 10 q-4 -6 0 -11 q4 -5 0 -10"/>
+      <path class="steam s2" d="M22 10 q-4 -6 0 -11 q4 -5 0 -10"/>
+      <path d="M0 14 H32 L29 34 Q28 40 22 40 H10 Q4 40 3 34 Z" fill="#3A251E"/>
+      <path d="M32 18 q8 0 8 7 q0 7 -9 7" fill="none" stroke="#3A251E" stroke-width="3"/>
+    </g>
+    <g text-anchor="middle">
+      <text x="280" y="122" class="h">NOUR'S BACKEND CAFÉ</text>
+      <text x="280" y="146" class="s">ROASTED IN EGYPT · OPEN FOR OPPORTUNITIES</text>
+      <text x="280" y="172" class="s">ORDER #2026 · TABLE: BACKEND · SERVER: NOUR</text>
+    </g>
+    <line x1="56" y1="194" x2="504" y2="194" class="dots"/>
+
+    <g class="t">
+      <text x="56" y="230" class="b">ESPRESSO</text>     <text x="190" y="230">C# / .NET</text>            <text x="504" y="230" text-anchor="end">daily</text>
+      <text x="56" y="266" class="b">DOUBLE SHOT</text>  <text x="190" y="266">ASP.NET Core Web API</text> <text x="504" y="266" text-anchor="end">x2</text>
+      <text x="56" y="302" class="b">LATTE</text>        <text x="190" y="302">EF Core + LINQ</text>       <text x="504" y="302" text-anchor="end">smooth</text>
+      <text x="56" y="338" class="b">DARK ROAST</text>   <text x="190" y="338">SQL Server</text>           <text x="504" y="338" text-anchor="end">strong</text>
+      <text x="56" y="374" class="b">EXTRA SHOT</text>   <text x="190" y="374">JWT + Identity</text>       <text x="504" y="374" text-anchor="end">secure</text>
+      <text x="56" y="410" class="b">SLOW BREW</text>    <text x="190" y="410">Clean Architecture</text>   <text x="504" y="410" text-anchor="end">SOLID</text>
+      <text x="56" y="446" class="b">COLD BREW</text>    <text x="190" y="446">Hangfire jobs</text>        <text x="504" y="446" text-anchor="end">background</text>
+      <text x="56" y="482" class="b">ON THE SIDE</text>  <text x="190" y="482">Git · Swagger · VS</text>   <text x="504" y="482" text-anchor="end">free</text>
+    </g>
+    <line x1="56" y1="506" x2="504" y2="506" class="dots"/>
+    <g class="t">
+      <text x="56" y="540">SUBTOTAL</text>  <text x="504" y="540" text-anchor="end">3 shipped projects</text>
+      <text x="56" y="570">TIP</text>       <text x="504" y="570" text-anchor="end">always learning</text>
+      <text x="56" y="610" class="b" style="font-size:18px">TOTAL</text>
+      <text x="504" y="610" class="b" text-anchor="end" style="font-size:18px">1 backend dev, freshly brewed</text>
+    </g>
+    <line x1="56" y1="632" x2="504" y2="632" class="dots"/>
+    <!-- barcode -->
+    <g fill="#2A1A15" transform="translate(170 648)">
+      <rect x="0" width="3" height="40"/><rect x="6" width="1.5" height="40"/><rect x="10" width="4" height="40"/><rect x="17" width="1.5" height="40"/><rect x="21" width="2" height="40"/><rect x="27" width="4" height="40"/><rect x="34" width="1.5" height="40"/><rect x="38" width="3" height="40"/><rect x="45" width="1.5" height="40"/><rect x="49" width="4" height="40"/><rect x="56" width="2" height="40"/><rect x="61" width="1.5" height="40"/><rect x="65" width="3" height="40"/><rect x="71" width="4" height="40"/><rect x="78" width="1.5" height="40"/><rect x="82" width="2" height="40"/><rect x="88" width="3" height="40"/><rect x="94" width="1.5" height="40"/><rect x="98" width="4" height="40"/><rect x="105" width="2" height="40"/><rect x="110" width="1.5" height="40"/><rect x="114" width="3" height="40"/><rect x="120" width="4" height="40"/><rect x="127" width="1.5" height="40"/><rect x="131" width="2" height="40"/><rect x="137" width="3" height="40"/><rect x="143" width="1.5" height="40"/><rect x="147" width="4" height="40"/><rect x="154" width="2" height="40"/><rect x="159" width="1.5" height="40"/><rect x="163" width="3" height="40"/><rect x="169" width="4" height="40"/><rect x="176" width="1.5" height="40"/><rect x="180" width="2" height="40"/><rect x="186" width="3" height="40"/><rect x="192" width="1.5" height="40"/><rect x="196" width="4" height="40"/><rect x="203" width="2" height="40"/><rect x="208" width="1.5" height="40"/><rect x="212" width="3" height="40"/><rect x="218" width="2" height="40"/>
+    </g>
+    <text x="280" y="708" text-anchor="middle" class="s">THANKS FOR STOPPING BY · COME AGAIN</text>
+  </g>
+</svg>

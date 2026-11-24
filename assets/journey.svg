@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 386" width="1000" height="386" role="img" aria-label="Journey as a race track: ITI LMS Sep 2025, InsightHub May 2026, graduated Ain Shams Jul 2026, DEPI Aug 2026, MediCare Nov 2026">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1E1411"/><stop offset="1" stop-color="#2E1F1A"/></linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0DCC2"/><stop offset="1" stop-color="#C39A6C"/></linearGradient>
+    <path id="track" d="M50 250 C150 250 170 110 270 110 S390 250 490 250 S610 110 710 110 S830 250 930 250"/>
+    <style>
+      .lane { fill: none; stroke: #C8A27A; stroke-width: 2.5; stroke-dasharray: 14 12; opacity: .45; animation: roll 1.2s linear infinite; }
+      @keyframes roll { to { stroke-dashoffset: -26; } }
+      .date { font: 700 13px 'Cascadia Code', Consolas, monospace; fill: #C8A27A; letter-spacing: 2px; }
+      .what { font: 600 16px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #F3E7D8; }
+      .sub  { font: 13px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #BFA88F; }
+      .title { font: 700 14px 'Cascadia Code', Consolas, monospace; fill: #C8A27A; letter-spacing: 4px; }
+      .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2s ease-out infinite; }
+      @keyframes pulse { 0% { transform: scale(1); opacity: .6; } 100% { transform: scale(2.6); opacity: 0; } }
+    </style>
+  </defs>
+  <rect width="1000" height="386" rx="24" fill="url(#bg)"/>
+  <text x="32" y="40" class="title">THE TRACK SO FAR</text>
+
+  <g transform="translate(0 30)">
+  <use xlink:href="#track" href="#track" fill="none" stroke="#120C0A" stroke-width="34" stroke-linecap="round"/>
+  <use xlink:href="#track" href="#track" class="lane"/>
+
+  <!-- checkpoints -->
+  <g fill="#F3E7D8" stroke="#C8A27A" stroke-width="3">
+    <circle cx="50" cy="250" r="9"/><circle cx="270" cy="110" r="9"/><circle cx="490" cy="250" r="9"/><circle cx="710" cy="110" r="9"/>
+  </g>
+  <circle class="pulse" cx="930" cy="250" r="9" fill="#E0604F"/>
+  <circle cx="930" cy="250" r="9" fill="#E0604F" stroke="#F3E7D8" stroke-width="3"/>
+
+  <!-- labels: low points below, high points above -->
+  <g text-anchor="middle">
+    <text x="70"  y="294" class="date">SEP 2025</text><text x="70"  y="314" class="what">ITI .NET + LMS</text><text x="70" y="332" class="sub">built solo in a week</text>
+    <text x="270" y="54"  class="date">MAY 2026</text><text x="270" y="74"  class="what">InsightHub</text><text x="270" y="92" class="sub">Backend Lead</text>
+    <text x="490" y="294" class="date">JUL 2026</text><text x="490" y="314" class="what">Graduated</text><text x="490" y="332" class="sub">Ain Shams · Stats &amp; CS</text>
+    <text x="710" y="54"  class="date">AUG 2026</text><text x="710" y="74"  class="what">DEPI Full Stack .NET</text><text x="710" y="92" class="sub">6-month track</text>
+    <text x="910" y="294" class="date">NOV 2026</text><text x="910" y="314" class="what">MediCare</text><text x="910" y="332" class="sub">sole backend dev · now</text>
+  </g>
+
+  <!-- next lap flag -->
+  <g transform="translate(860 120)">
+    <line x1="0" y1="0" x2="0" y2="70" stroke="#C8A27A" stroke-width="3"/>
+    <g>
+      <rect x="0" y="0" width="12" height="10" fill="#F3E7D8"/><rect x="12" y="0" width="12" height="10" fill="#120C0A"/><rect x="24" y="0" width="12" height="10" fill="#F3E7D8"/>
+      <rect x="0" y="10" width="12" height="10" fill="#120C0A"/><rect x="12" y="10" width="12" height="10" fill="#F3E7D8"/><rect x="24" y="10" width="12" height="10" fill="#120C0A"/>
+      <animateTransform attributeName="transform" type="skewY" values="0;6;0;-4;0" dur="1.6s" repeatCount="indefinite"/>
+    </g>
+    <text x="44" y="16" class="date" style="font-size:11px">NEXT LAP</text>
+  </g>
+
+  <!-- car driving the track -->
+  <g>
+    <g transform="translate(-22 -11)">
+      <rect x="0" y="0" width="44" height="22" rx="8" fill="url(#body)"/>
+      <path d="M26 3 Q34 5 35 11 Q34 17 26 19 Z" fill="#1C120F"/>
+      <rect x="9" y="4" width="13" height="14" rx="3" fill="#1C120F"/>
+      <rect x="-1" y="3" width="3" height="5" rx="1" fill="#E0604F"/><rect x="-1" y="14" width="3" height="5" rx="1" fill="#E0604F"/>
+      <rect x="42" y="3" width="3" height="4" rx="1" fill="#FFE9B0"/><rect x="42" y="15" width="3" height="4" rx="1" fill="#FFE9B0"/>
+    </g>
+    <animateMotion dur="9s" repeatCount="indefinite" rotate="auto" keyPoints="0;1" keyTimes="0;1" calcMode="linear">
+      <mpath xlink:href="#track" href="#track"/>
+    </animateMotion>
+  </g>
+  </g>
+</svg>
