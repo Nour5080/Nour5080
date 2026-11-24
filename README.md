@@ -1,175 +1,36 @@
-<!-- Animated Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1D4ED8,100:2563EB&height=200&section=header&text=Nour%20Mohamed&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Developer%20%7C%20Problem%20Solver&descAlignY=55&descSize=18"/>
+<p align="center"> <img src="assets/hero.svg" alt="Nour Mohamed, .NET Backend Developer" width="100%"/> </p> <p align="center"> <a href="https://linkedin.com/in/nour-mohamed-5b685428b"><img src="https://img.shields.io/badge/LinkedIn-Connect-C8A27A?style=for-the-badge&labelColor=1C120F&logo=linkedin&logoColor=E8D5C0" alt="LinkedIn"/></a> <a href="mailto:nour.mohamed508040@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hi-C8A27A?style=for-the-badge&labelColor=1C120F&logo=gmail&logoColor=E8D5C0" alt="Email"/></a> <img src="https://img.shields.io/badge/Based%20in-Egypt-C8A27A?style=for-the-badge&labelColor=1C120F" alt="Based in Egypt"/> </p>
+☕ Order up
 
-<div align="center">
+I'm Nour, a junior .NET backend developer from Egypt. I graduated from Ain Shams University in Statistics and Computer Science (2026), which is why I care as much about the numbers behind a system as the code inside it.
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=23&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=650&lines=Building+Backend+Systems+with+.NET;Turning+Complex+Problems+into+Solutions;Clean+Architecture+%7C+API+Design;Always+Learning%2C+Always+Building" />
+I like the part of the app nobody sees: APIs, data models, auth, and the glue that lets a Flutter app, a .NET API and a Python service agree on what a request means. I take ownership of what I build, and I'd rather understand a design decision than copy one.
 
-<p>
-  <a href="https://github.com/Nour5080">
-    <img src="https://komarev.com/ghpvc/?username=Nour5080&label=Profile%20Views&color=2563EB&style=flat-square" />
-  </a>
-  <img src="https://img.shields.io/github/followers/Nour5080?label=Followers&style=flat-square&color=2563EB" />
-</p>
+🔧 On the bench now: sole backend developer on MediCare, a clinic booking and queue system
+🎓 Training: Full Stack .NET track at the Digital Egypt Pioneers Initiative (DEPI)
+🏁 Where I'm heading: large backend systems, distributed services and cloud architecture
+☕ The menu
 
-</div>
+Espresso (what I use every day)
 
----
+Show Image Show Image Show Image Show Image Show Image
 
-## 👨‍💻 About Me
+Double shot (security and architecture)
 
-I'm **Nour Mohamed**, a Computer Science graduate and .NET Backend Developer.
+Show Image Show Image Show Image Show Image Show Image
 
-I enjoy understanding problems, exploring how systems work, and transforming ideas into practical backend solutions.
+On the side (tools and integrations)
 
-My main interest is backend engineering — especially business logic, API design, database architecture, and building maintainable systems.
+Show Image Show Image Show Image Show Image Show Image Show Image
 
-I believe good engineering starts with asking the right questions before writing the first line of code.
+🏁 Featured laps
+Project	What it is	My part
+InsightHub	Career guidance and job-market platform. Graduation project, 4-member team.	Backend Lead & Integration Architect. Built the career assessment (50 questions, 10 tracks, top-3 paths) and the market-matching algorithm. Connected Flutter, a .NET 10 Web API and a Python FastAPI analytics service. Integrated Adzuna, NewsAPI and QuizAPI.
+MediCare	Clinic management and appointment booking system. Team project.	Sole backend developer. Built booking with double-booking protection, a FIFO walk-in queue with grace periods, waiting-time estimates based on queueing theory, role-based account provisioning, and 168 automated tests.
+Academic Management System	LMS for students, instructors, courses, exams and grades. ITI final project.	Built it solo in a week: ASP.NET Core MVC, EF Core and Clean Architecture, with Identity roles for Admin, HR, Instructor and Student.
+📊 Lap times
+<p align="center"> <img height="165" src="https://github-readme-stats.vercel.app/api?username=Nour5080&show_icons=true&hide_border=true&bg_color=1C120F&title_color=C8A27A&text_color=E8D5C0&icon_color=D7263D" alt="GitHub stats"/> <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nour5080&layout=compact&hide_border=true&bg_color=1C120F&title_color=C8A27A&text_color=E8D5C0" alt="Top languages"/> </p>
+🔧 Off the clock
 
-- 🔭 Building backend applications using ASP.NET Core.
-- 🧠 Interested in System Design and Software Architecture.
-- 🏗️ Exploring scalable systems and distributed architectures.
-- 📚 Constantly learning and improving my engineering skills.
-- 🤝 Open to collaboration, knowledge sharing, and new opportunities.
+When I'm not writing code, I'm usually working on cars. I keep a 1996 Peugeot 405 and a 2011 Kia Carens running myself, and I like knowing how the cooling system or the wiring actually works instead of guessing. I take the same approach with bugs.
 
----
-
-## ⚡ Tech Stack
-
-<div align="center">
-
-### Backend Development
-
-<img src="https://skillicons.dev/icons?i=cs,dotnet,visualstudio" />
-
-### Database & Tools
-
-<img src="https://skillicons.dev/icons?i=sqlserver,git,github,postman,python" />
-
-</div>
-
----
-
-## 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%">
-
-### 🏥 MediCare
-
-Clinic Management System.
-
-- Appointment management
-- Booking workflows
-- Role-based authorization
-- Clean backend workflows
-
-**Stack:** ASP.NET Core, EF Core, SQL Server
-
-<a href="https://github.com/Nour5080/MediCare">
-  <img src="https://img.shields.io/badge/View_Repository-2563EB?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-</td>
-<td width="50%">
-
-### 🎓 InsightHub
-
-Career Guidance Platform.
-
-- Backend Lead & Integration Architect
-- RESTful APIs
-- JWT authentication
-- External API integrations
-- Python analytics integration
-
-**Stack:** .NET 10, EF Core, SQL Server, FastAPI
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 📚 ITI Tasks
-
-A collection of practical development tasks and exercises.
-
-<a href="https://github.com/Nour5080/ITI-Tasks">
-  <img src="https://img.shields.io/badge/View_Repository-2563EB?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-</td>
-<td width="50%">
-
-### 🏗️ Currently Exploring
-
-- Clean Architecture
-- System Design
-- Microservices
-- Performance Optimization
-
-</td>
-</tr>
-</table>
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Nour5080&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nour5080&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-
-<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=Nour5080&theme=tokyonight&hide_border=true" />
-
-</div>
-
----
-
-## 📈 Contribution Activity
-
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Nour5080&theme=tokyo-night&hide_border=true&area=true" />
-
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Nour5080/Nour5080/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%" />
-
-</div>
-
----
-
-## 🤝 Let's Connect
-
-<div align="center">
-
-<a href="https://github.com/Nour5080">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-</div>
-
-<div align="center">
-
-### 💡 My Engineering Philosophy
-
-**Understand the problem. Design the solution. Build it right. Keep improving.**
-
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:0F172A&height=100&section=footer"/>
-
+<p align="center"> <sub>Thanks for stopping by. The coffee's on me next time ☕</sub> </p>
