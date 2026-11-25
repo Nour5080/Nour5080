@@ -51,9 +51,6 @@ I like the part of the app nobody sees: APIs, data models, auth, and the glue th
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nour5080&layout=compact&hide_border=true&bg_color=1C120F&title_color=C8A27A&text_color=E8D5C0" alt="Top languages"/>
 </p>
 
-## 🔧 Off the clock
-
-When I'm not writing code, I'm usually working on cars. I keep a **1996 Peugeot 405** and a **2011 Kia Carens** running myself, and I like knowing how the cooling system or the wiring actually works instead of guessing. I take the same approach with bugs.
 
 <p align="center">
   <sub>Thanks for stopping by. The coffee's on me next time ☕</sub>
